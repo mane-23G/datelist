@@ -5,7 +5,7 @@ This is a function that prints future dates/times on a regular schedule specfied
 gcc -o datelist datelist.c
 
 ### Usage 
-datelist [-c <count>] <schedule>
+datelist \[-c \<count\>\] \<schedule\>
 The user must specify the schedule at which the date must be printed. No time unit is allowed to repeat. There can be at most one occurrence of each unit. The number of occurences can be specified by the user as well using the flag of -c.
 
 <schedule> = <num> <time-unit> [<num> <time-unit> ... ]
