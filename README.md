@@ -25,9 +25,7 @@ The user must specify the schedule at which the date must be printed. No time un
 -time units can be listed in any order
 
 ### Defects/Shortcomings
--None that I am aware of
-
-
+-None that I am aware of<br><br>
 This was last tested on 11/18/24 and was working as intended.
 
 Thank you to Professor Weiss for the assigment!
