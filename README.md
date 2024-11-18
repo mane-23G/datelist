@@ -6,12 +6,13 @@ gcc -o datelist datelist.c
 
 ### Usage 
 datelist \[-c \<count\>\] \<schedule\>
+
 The user must specify the schedule at which the date must be printed. No time unit is allowed to repeat. There can be at most one occurrence of each unit. The number of occurences can be specified by the user as well using the flag of -c.
 
-<schedule> = <num> <time-unit> [<num> <time-unit> ... ]
-<num> = [1-9][0-9]...
-<time-unit> = year[s] month[s] week[s] day[s] hour[s] minute[s]
-[-c <count>] = count > 0
+\<schedule\> \= \<num\> \<time-unit\> \[\<num\> \<time-unit\> ... \]
+\<num\> \= \[1-9\]\[0-9\]...
+\<time-unit\> \= year\[s\] month\[s\] week\[s\] day\[s\] hour\[s\] minute\[s\]
+\[-c \<count\>\] \= count \> 0
 
 ### Features
 -No time unit is allowed to repeat
