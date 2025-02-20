@@ -1,5 +1,5 @@
 # datelist
-This is a function that prints future dates/times on a regular schedule specfied by the user. 10 occurences are printed unless specifed by user for a different count. This was programmed for a Lunix System specifically.
+This is a function that prints future dates/times on a regular schedule specfied by the user. 10 occurences are printed unless specified by user for a different count. This was programmed for a Lunix System specifically.
 
 ### Build with
 gcc -o datelist datelist.c
